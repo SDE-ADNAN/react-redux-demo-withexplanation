@@ -15,7 +15,7 @@ const App = () => {
           <div>
             <button onClick={()=>dispatch(decNumber())}><h1>-</h1></button>
             {myState}
-            <button><h1>+</h1></button>
+            <button onClick={()=>dispatch(incNumber())}><h1>+</h1></button>
           </div>
       </div>
       </div>
